@@ -1,0 +1,56 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: url(../img/mothers-day-background-with-flowers-and-love.jpg);
+    background-position: right bottom;
+    background-size: cover;
+    font-family: 'Pacifico', cursive;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: rgb(230, 44, 205);
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    text-align: center;
+    border-radius: 200px 50px 200px 50px;
+    box-shadow: 0px 0px 15px 10px black;
+    color: rgb(175, 231, 44);
+    animation: scale 2s;
+}
+
+
+
+
+.title {
+    margin-top: 0px;
+    font-size: 50px;
+}
+
+.poem {
+    font-size: 50px;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
